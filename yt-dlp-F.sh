@@ -16,8 +16,8 @@ function install_soft (){
 			echo -e ${COLOURS[0]}установка ${SOFT}${COLOURS[4]}
 			
 			if command -v apt &> /dev/null; then
-				su -c "apt install \"$SOFT\" -y" -
-				#sudo apt-get install "$SOFT"
+				#su -c "apt install \"$SOFT\" -y" -
+				sudo apt-get install "$SOFT"
 			elif command -v dnf &> /dev/null; then
 				sudo dnf install "$SOFT"
 			elif command -v brew &> /dev/null; then

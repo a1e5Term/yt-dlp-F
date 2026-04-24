@@ -11,14 +11,19 @@
 
 ## Discription
 
-### yt-dlp-F.sh
 TUI for yt-dlp.
-
 
 ---
 
 ## Install
 ```Bash
 git clone https://github.com/a1e5Term/yt-dlp-F
-cd bash-scripts
+cd yt-dlp-F
+chmod +x yt-dlp-F.sh
+
 ```
+
+---
+
+## Use
+./yt-dlp-F.sh URL
